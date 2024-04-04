@@ -86,7 +86,7 @@ nav ul li a:hover {
 }
 
 .rightSection img {
-  width: 80%;
+  width: 85%;
 }
 
 .purple {
@@ -219,23 +219,21 @@ main hr {
 }
 
 .fourthSection {
-  max-width: 80vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin: auto;
+  margin-left: 10vw;
+  width: 80vw;
   height: 82vh;
-  position: relative;
+}
+.image{
+  height: 450px;
 }
 
 .fourthSection h1 {
   font-size: 2.5rem;
   margin-bottom: 30px;
-}
-
-.fourthSection img {
-  margin-left: 40px;;
-  width: 350px;
-  position: absolute;
-  left: 40vw;
-  bottom: 30vh;
 }
 
 .fourthSection ul {
