@@ -197,7 +197,7 @@ main hr {
 }
 
 .education span {
-  margin-left: 30px;
+  margin-left: 20px;
 }
 
 .Achievements {
@@ -459,25 +459,37 @@ footer {
     row-gap: 1px;
     font-size: 14px;
   }
-  .leftSection p,
-   div{
-    font-size: 25px;
-  }
   #element{
-    font-size: 16px;
+    font-size: 25px;
   }
   .buttons{
     display: flex;
   }
+  .text p, 
+  div,
+  span{
+    font-size: 28px;
+    line-height: 36px;
+  }
 }
 
 @media (max-width: 800px) {
-  .thirdSection p,h2,h3 {
-    font-size: 1rem;
-    margin: 3px 0;
+  .thirdSection{
+    margin-bottom: 50px;
+  }
+  .thirdSection p,span {
+    font-size: 15px;
+    margin: 2px 0;
+  }
+  .thirdSection h2 {
+    font-size: 18px;
   }
   .thirdSection h1 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
+  }
+  .fourthSection li {
+    font-size: 1.2rem;
+    margin-bottom: 2px;
   }
 }
 
