@@ -222,7 +222,7 @@ main hr {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: auto;
+  margin: 130px 0;
   margin-left: 10vw;
   width: 80vw;
   height: 82vh;
@@ -448,6 +448,16 @@ footer {
   background-color: rgb(8, 4, 12);
 }
 
+@media (max-width: 620px) {
+  nav{
+    height: 17vh;
+  }
+  nav ul{
+    flex-direction: column;
+    row-gap: 2px;
+  }
+}
+
 @media (max-width: 800px) {
   .thirdSection p,h2,h3 {
     font-size: 1.1rem;
@@ -457,6 +467,7 @@ footer {
     font-size: 1.9rem;
   }
 }
+
 @media (max-width: 890px) {
   .contact-box{
     flex-direction: column;
