@@ -229,7 +229,8 @@ main hr {
   height: 82vh;
 }
 .image{
-  height: 450px;
+  height: 350px;
+  width: 350px;
 }
 
 .fourthSection h1 {
@@ -458,15 +459,25 @@ footer {
     row-gap: 1px;
     font-size: 14px;
   }
+  .leftSection p,
+   div{
+    font-size: 25px;
+  }
+  #element{
+    font-size: 16px;
+  }
+  .buttons{
+    display: flex;
+  }
 }
 
 @media (max-width: 800px) {
   .thirdSection p,h2,h3 {
-    font-size: 1.1rem;
+    font-size: 1rem;
     margin: 3px 0;
   }
   .thirdSection h1 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
 }
 
