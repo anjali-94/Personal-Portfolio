@@ -27,6 +27,7 @@ nav ul {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 15px;
 }
 
 nav ul li {
@@ -448,23 +449,24 @@ footer {
   background-color: rgb(8, 4, 12);
 }
 
-@media (max-width: 620px) {
+@media (max-width: 800px) {
   nav{
-    height: 17vh;
+    height: 19vh;
   }
   nav ul{
     flex-direction: column;
-    row-gap: 2px;
+    row-gap: 1px;
+    font-size: 14px;
   }
 }
 
 @media (max-width: 800px) {
   .thirdSection p,h2,h3 {
     font-size: 1.1rem;
-    margin: 4px 0;
+    margin: 3px 0;
   }
   .thirdSection h1 {
-    font-size: 1.9rem;
+    font-size: 1.8rem;
   }
 }
 
