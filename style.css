@@ -68,7 +68,7 @@ nav ul li a:hover {
   color: white;
   font-weight: bold;
   background-color: rgb(0, 0, 0);
-  margin-left: 30px;
+  margin-left: 10px;
   border: 2px solid white;
   cursor: pointer;
   transition: all 0.15s;
@@ -467,22 +467,21 @@ footer {
   }
   .text p, 
   div,
-  span{
+  .purple{
     font-size: 28px;
     line-height: 36px;
   }
-}
-
-@media (max-width: 800px) {
+  
   .thirdSection{
     margin-bottom: 50px;
   }
   .thirdSection p,span {
-    font-size: 15px;
+    font-size: 1rem;
     margin: 2px 0;
   }
   .thirdSection h2 {
-    font-size: 18px;
+    font-size: 1.3rem;
+    line-height: 28px;
   }
   .thirdSection h1 {
     font-size: 1.8rem;
@@ -490,6 +489,9 @@ footer {
   .fourthSection li {
     font-size: 1.2rem;
     margin-bottom: 2px;
+  }
+  .secondSection h2{
+    font-size: 1.5rem;
   }
 }
 
