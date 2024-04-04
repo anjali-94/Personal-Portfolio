@@ -170,6 +170,7 @@ main hr {
 .thirdSection {
   max-width: 80vw;
   margin: auto;
+  margin-bottom: 130px;
   height: 84vh;
 }
 
@@ -186,7 +187,7 @@ main hr {
 }
 
 .thirdSection h3 {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
 .education p {
@@ -223,7 +224,7 @@ main hr {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 130px 0;
+  margin: 110px 0;
   margin-left: 10vw;
   width: 80vw;
   height: 82vh;
@@ -262,7 +263,7 @@ main hr {
 
 .fifthSection .left {
   height: 85vh;
-  width: 62%;
+  width: 69%;
 }
 
 .fifthSection h1 {
@@ -270,9 +271,13 @@ main hr {
   margin-bottom: 50px;
 }
 .img-text {
-  text-align: center;
   display: flex;
-  margin-left: 100px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 70px;
+  font-size: 6.6rem;
+  font-weight: 500;
+  font-style: italic;
 }
 
 .fifthSection .eye-image {
@@ -281,11 +286,13 @@ main hr {
  border-radius: 50%;
 }
 
-.fifthSection p {
+.contact-text {
   font-size: 6.6rem;
   font-weight: 500;
   font-style: italic;
+  margin-bottom: 35px;
 }
+
 
 .contact-box {
   display: flex;
@@ -459,45 +466,46 @@ footer {
     row-gap: 1px;
     font-size: 14px;
   }
-  #element{
-    font-size: 25px;
-  }
   .buttons{
     display: flex;
   }
-  .text p, 
-  div,
-  .purple{
-    font-size: 28px;
-    line-height: 36px;
+  .leftSection p, 
+  .purple,
+  .about, 
+  #element{
+    font-size: 30px;
+    line-height: 42px;
   }
-  
-  .thirdSection{
-    margin-bottom: 50px;
+  .text {
+    line-height: 0;
   }
-  .thirdSection p,span {
-    font-size: 1rem;
-    margin: 2px 0;
+  .thirdSection p {
+    font-size: 0.9rem;
+    margin: 12px 0;
+  }
+  .thirdSection span {
+    font-size: 0.8rem;
+    margin: 12px 0;
+  }
+  .thirdSection h3 {
+    font-size: 1.1rem;
   }
   .thirdSection h2 {
     font-size: 1.3rem;
-    line-height: 28px;
   }
   .thirdSection h1 {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
   .fourthSection li {
     font-size: 1.2rem;
-    margin-bottom: 2px;
   }
-  .secondSection h2{
-    font-size: 1.5rem;
-  }
+  
 }
 
 @media (max-width: 890px) {
   .contact-box{
     flex-direction: column;
+    width: 70vw;
   }
   .contact-box a{
     margin-bottom: 7px;
