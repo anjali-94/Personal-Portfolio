@@ -147,7 +147,17 @@ main hr {
   background: white;
   width: 1px;
   height: 93px;
-  margin: 0 120px;
+  margin-left: 50px;
+  margin-right: 160px;
+
+}
+
+.secondSection .vertical2 {
+  background: white;
+  width: 1px;
+  height: 93px;
+  margin-left: 50px;
+  margin-right: 220px;
 
 }
 
