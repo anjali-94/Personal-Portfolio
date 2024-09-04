@@ -86,7 +86,7 @@ nav ul li a:hover {
 }
 
 .rightSection img {
-  width: 80%;
+  width: 85%;
 }
 
 .purple {
@@ -146,6 +146,13 @@ main hr {
   background: white;
   width: 1px;
   height: 93px;
+  margin: 0 77px;
+
+}
+.secondSection .vertical-nontech {
+  background: white;
+  width: 1px;
+  height: 93px;
   margin: 0 120px;
 
 }
@@ -164,6 +171,39 @@ main hr {
 
 .nontech-skills {
   margin-top: 190px;
+}
+
+.experienceSection{
+  max-width: 80vw;
+  margin: auto;
+  height: 84vh;
+}
+
+.experienceSection h1 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.experienceSection h2 {
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+}
+
+.experienceSection p {
+  font-size: 1.2rem;
+  color: rgb(203, 193, 193);
+  margin-bottom: 25px;
+  max-width: 800px;
+  margin-top: 15px;
+}
+
+.image-experience {
+    position: relative;
+    height: 50px;
+    width: 50px;
+    top: -460px;
+    left: 700px;
+    object-fit: cover;
 }
 
 .thirdSection {
@@ -190,7 +230,7 @@ main hr {
 
 .education p {
   font-size: 1.2rem;
-  color: gray;
+  color: rgb(203, 193, 193);
   margin-bottom: 25px;
   margin-top: 15px;
 }
@@ -219,23 +259,19 @@ main hr {
 }
 
 .fourthSection {
-  max-width: 80vw;
-  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 100px 0;
   height: 82vh;
-  position: relative;
+}
+.image{
+  height: 360px;
 }
 
 .fourthSection h1 {
   font-size: 2.5rem;
   margin-bottom: 30px;
-}
-
-.fourthSection img {
-  margin-left: 40px;;
-  width: 350px;
-  position: absolute;
-  left: 40vw;
-  bottom: 30vh;
 }
 
 .fourthSection ul {
@@ -400,6 +436,7 @@ main hr {
 .in-box {
   display: flex;
   margin-top: 22px;
+  margin-left: -100px;
   width: 100px;
   justify-content: space-evenly;
 }
