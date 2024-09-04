@@ -20,13 +20,14 @@ nav {
 }
 
 .header-left-section {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
 }
 
 nav ul {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 15px;
 }
 
 nav ul li {
@@ -67,7 +68,7 @@ nav ul li a:hover {
   color: white;
   font-weight: bold;
   background-color: rgb(0, 0, 0);
-  margin-left: 30px;
+  margin-left: 10px;
   border: 2px solid white;
   cursor: pointer;
   transition: all 0.15s;
@@ -153,7 +154,17 @@ main hr {
   background: white;
   width: 1px;
   height: 93px;
-  margin: 0 120px;
+  margin-left: 50px;
+  margin-right: 160px;
+
+}
+
+.secondSection .vertical2 {
+  background: white;
+  width: 1px;
+  height: 93px;
+  margin-left: 50px;
+  margin-right: 220px;
 
 }
 
@@ -209,11 +220,12 @@ main hr {
 .thirdSection {
   max-width: 80vw;
   margin: auto;
+  margin-bottom: 130px;
   height: 84vh;
 }
 
 .thirdSection h1 {
-  font-size: 2.5rem;
+  font-size: 2.6rem;
   margin-bottom: 30px;
 }
 
@@ -225,7 +237,7 @@ main hr {
 }
 
 .thirdSection h3 {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
 .education p {
@@ -236,7 +248,7 @@ main hr {
 }
 
 .education span {
-  margin-left: 30px;
+  margin-left: 20px;
 }
 
 .Achievements {
@@ -259,14 +271,10 @@ main hr {
 }
 
 .fourthSection {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin: 100px 0;
+  max-width: 80vw;
+  margin: auto;
   height: 82vh;
-}
-.image{
-  height: 360px;
+  position: relative;
 }
 
 .fourthSection h1 {
@@ -298,7 +306,7 @@ main hr {
 
 .fifthSection .left {
   height: 85vh;
-  width: 62%;
+  width: 69%;
 }
 
 .fifthSection h1 {
@@ -306,9 +314,13 @@ main hr {
   margin-bottom: 50px;
 }
 .img-text {
-  text-align: center;
   display: flex;
-  margin-left: 100px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 70px;
+  font-size: 6.6rem;
+  font-weight: 500;
+  font-style: italic;
 }
 
 .fifthSection .eye-image {
@@ -317,15 +329,18 @@ main hr {
  border-radius: 50%;
 }
 
-.fifthSection p {
+.contact-text {
   font-size: 6.6rem;
   font-weight: 500;
   font-style: italic;
+  margin-bottom: 35px;
 }
+
 
 .contact-box {
   display: flex;
-  width: 80%;
+  width: 90%;
+  text-align: center;
   margin-left: 10px;
   margin-top: 70px;
   border: 2px solid rgb(24, 24, 73);
@@ -487,21 +502,58 @@ footer {
 }
 
 @media (max-width: 800px) {
-  .thirdSection p,h2,h3 {
+  nav{
+    height: 19vh;
+  }
+  nav ul{
+    flex-direction: column;
+    row-gap: 1px;
+    font-size: 14px;
+  }
+  .buttons{
+    display: flex;
+  }
+  .leftSection p, 
+  .purple,
+  .about, 
+  #element{
+    font-size: 30px;
+    line-height: 42px;
+  }
+  .text {
+    line-height: 0;
+  }
+  .thirdSection p {
+    font-size: 0.9rem;
+    margin: 12px 0;
+  }
+  .thirdSection span {
+    font-size: 0.8rem;
+    margin: 12px 0;
+  }
+  .thirdSection h3 {
     font-size: 1.1rem;
-    margin: 4px 0;
+  }
+  .thirdSection h2 {
+    font-size: 1.3rem;
   }
   .thirdSection h1 {
-    font-size: 1.9rem;
+    font-size: 2rem;
   }
+  .fourthSection li {
+    font-size: 1.2rem;
+  }
+  
 }
+
 @media (max-width: 890px) {
   .contact-box{
     flex-direction: column;
+    width: 70vw;
   }
   .contact-box a{
     margin-bottom: 7px;
-    font-size: 18px;
+    font-size: 16px;
   }
   .img-text{
     margin-left: 10px;
@@ -511,7 +563,7 @@ footer {
 
 @media (max-width: 1400px) {
   .fifthSection p{
-    font-size: 4.5rem;
+    font-size: 4.4rem;
   }
   .container{
   width: 350px;
