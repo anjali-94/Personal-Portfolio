@@ -143,19 +143,19 @@ main hr {
   display: flex;
 }
 
-.secondSection .vertical {
+.secondSection .tech_vertical {
   background: white;
   width: 1px;
   height: 93px;
   margin: 0 77px;
 
 }
-.secondSection .vertical-nontech {
+.secondSection .non_tech_vertical {
   background: white;
   width: 1px;
   height: 93px;
-  margin-left: 50px;
-  margin-right: 160px;
+  margin-left: 85px;
+  margin-right: 170px;
 
 }
 
@@ -296,6 +296,12 @@ main hr {
   color: white;
 }
 
+.image-project img {
+  position: relative;
+  width: 35%;
+  top: -500px;
+  left: 760px;
+}
 .fifthSection {
   width: 80vw;
   height: 85vh;
